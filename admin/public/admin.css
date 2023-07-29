@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .menu-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .menu-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menu-button:focus {
+    outline: none;
+  }
+  
+  /* Optional styles for responsive design */
+  @media (max-width: 500px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
